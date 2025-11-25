@@ -3,7 +3,6 @@ package main
 import (
 	"os"
 	"log"
-	//"RestaurantManagementAppGO/database"
 	"fmt"
 	"net/http"
 
@@ -13,10 +12,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 
-	//"go.mongodb.org/mongo-driver/mongo"
 )
 
-//var foodCollection *mongo.Collection = database.OpenCollection(database.Client, "food")
+
 
 func main() {
 
